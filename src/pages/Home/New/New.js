@@ -16,7 +16,7 @@ const New = () => {
                         <p className='new__subtitle' dangerouslySetInnerHTML={{__html: t("home.new.text")}}/>
                         <Link to='shop'>
                         <div className='new__btns'>
-                            <button type='button' className='new__btn1'><BsArrowDown/></button>
+                            <button type='button' className='new__btn1'><BsArrowDown/>s</button>
                             <button type='button' className='new__btn2' dangerouslySetInnerHTML={{__html: t("home.new.btn")}}/>
                         </div>
                         </Link>
