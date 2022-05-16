@@ -6,8 +6,82 @@
       "login": "Admin",
       "phone": "+996(500)32-63-20",
       "confirmPwd": "admin",
-      "orders": [],
+      "orders": [
+        {
+          "name": "",
+          "email": "SAD@MAIL.RU",
+          "phone": "",
+          "country": "",
+          "city": "",
+          "street": "",
+          "house": "",
+          "flat": "",
+          "message": "",
+          "clothes": [
+            {
+              "id": 7,
+              "title": "Sport Suit STAMINA2",
+              "image": {
+                "black": "Shop/sportsuit2.jpg",
+                "white": "Shop/sportsuit2-white.jpg",
+                "red": "Shop/sportsuit2-red.jpg",
+                "pink": "Shop/sportsuit2-pink.jpg",
+                "grey": "Shop/sportsuit2-grey.jpg",
+                "beige": "Shop/sportsuit2-almond.jpg",
+                "blue": "Shop/sportsuit2-blue.jpg"
+              },
+              "color": "beige",
+              "size": "s",
+              "count": 2,
+              "price": 279,
+              "category": "sportsuit"
+            }
+          ],
+          "price": 558,
+          "date": "2022-05-16T12:27:07.632Z"
+        },
+        {
+          "name": "mona",
+          "email": "nurik@mail.ru",
+          "phone": "",
+          "country": "",
+          "city": "",
+          "street": "",
+          "house": "",
+          "flat": "",
+          "message": "",
+          "clothes": [
+            {
+              "id": 6,
+              "title": "Sport Suit STAMINA1",
+              "image": {
+                "black": "Shop/sportsuit1-black.jpg",
+                "white": "Shop/sportsuit1-white.jpg",
+                "red": "Shop/sportsuit1-red.jpg",
+                "pink": "Shop/sportsuit1-pink.jpg",
+                "grey": "Shop/sportsuit1-grey.jpg",
+                "beige": "Shop/sportsuit1-beige.jpg",
+                "blue": "Shop/sportsuit1.jpg"
+              },
+              "color": "beige",
+              "size": "s",
+              "count": 1,
+              "price": 279,
+              "category": "sportsuit"
+            }
+          ],
+          "price": 279,
+          "date": "2022-05-16T12:29:26.197Z"
+        }
+      ],
       "id": 1
+    },
+    {
+      "email": "max123@mail.ru",
+      "password": "$2a$10$w09uZtYDaECLLmIMgE6t2OQ3gJEHI2X9EkY2odubQgKWBqZ4Kipca",
+      "login": "max",
+      "phone": "+996505020599",
+      "id": 2
     }
   ],
   "clothes": [
@@ -288,10 +362,10 @@
       "title": "Sweatshirt Jinx LOL",
       "price": 300,
       "image": {
-        "black":"Shop/sweatshirt5.jpg",
-        "white":"Shop/sweatshirt5-white.jpg",
-        "red":"Shop/sweatshirt5-red.jpg",
-        "grey":"Shop/sweatshirt5-grey.jpg"
+        "black": "Shop/sweatshirt5.jpg",
+        "white": "Shop/sweatshirt5-white.jpg",
+        "red": "Shop/sweatshirt5-red.jpg",
+        "grey": "Shop/sweatshirt5-grey.jpg"
       },
       "category": "sweatshirt",
       "size": [
@@ -609,5 +683,76 @@
       "count": 97
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "name": "",
+      "email": "SAD@MAIL.RU",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "street": "",
+      "house": "",
+      "flat": "",
+      "message": "",
+      "clothes": [
+        {
+          "id": 7,
+          "title": "Sport Suit STAMINA2",
+          "image": {
+            "black": "Shop/sportsuit2.jpg",
+            "white": "Shop/sportsuit2-white.jpg",
+            "red": "Shop/sportsuit2-red.jpg",
+            "pink": "Shop/sportsuit2-pink.jpg",
+            "grey": "Shop/sportsuit2-grey.jpg",
+            "beige": "Shop/sportsuit2-almond.jpg",
+            "blue": "Shop/sportsuit2-blue.jpg"
+          },
+          "color": "beige",
+          "size": "s",
+          "count": 2,
+          "price": 279,
+          "category": "sportsuit"
+        }
+      ],
+      "price": 558,
+      "userEmail": "admin@mail.ru",
+      "date": "2022-05-16T12:27:07.550Z",
+      "id": 1
+    },
+    {
+      "name": "mona",
+      "email": "nurik@mail.ru",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "street": "",
+      "house": "",
+      "flat": "",
+      "message": "",
+      "clothes": [
+        {
+          "id": 6,
+          "title": "Sport Suit STAMINA1",
+          "image": {
+            "black": "Shop/sportsuit1-black.jpg",
+            "white": "Shop/sportsuit1-white.jpg",
+            "red": "Shop/sportsuit1-red.jpg",
+            "pink": "Shop/sportsuit1-pink.jpg",
+            "grey": "Shop/sportsuit1-grey.jpg",
+            "beige": "Shop/sportsuit1-beige.jpg",
+            "blue": "Shop/sportsuit1.jpg"
+          },
+          "color": "beige",
+          "size": "s",
+          "count": 1,
+          "price": 279,
+          "category": "sportsuit"
+        }
+      ],
+      "price": 279,
+      "userEmail": "admin@mail.ru",
+      "date": "2022-05-16T12:29:26.166Z",
+      "id": 2
+    }
+  ]
 }
